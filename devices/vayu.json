@@ -19,9 +19,9 @@
 			"recovery": "https://dl.twrp.me/vayu/",
 			"paypal": "https://www.paypal.com/paypalme/ubanuelaa",
 			"telegram": "https://t.me/SkylineUI_ROM_vayu",
-			"dt": "https://github.com/GXC2356/device_xiaomi_vayu-skyline",
+			"dt": "https://github.com/SkylineUI-Devices/device_xiaomi_vayu.git",
 			"common-dt": "",
-			"kernel": "https://github.com/GXC2356/kernel_xiaomi_vayu"
+			"kernel": "https://github.com/GXC2356/platform_kernel_xiaomi_vayu"
 		}
 	]
 }
