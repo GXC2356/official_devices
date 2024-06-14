@@ -1,17 +1,30 @@
 ========================
-SkylineUI Project October Update v9.0
+SkylineUI Project
 ========================
-Based on Android 13 QPR3
+Based on Android 14 QPR2
 ========================
-Changelog 12/10/2023:
+Changelog 14/06/2024:
 ========================
 
+*Source changelog*
+• Merge Android 14 QPR2
+• Merge may 2024 security patch
+• Another changes and improvments
+
 *Device changelog*
-- Merge latest CAF tag 'LA.UM.9.1.r1-14200-SMxxx0.QSSI14.0'
-- Revert enhanced audio
-- Add ViPER4AndroidFX
-- Increase screen record hz limit to 120
-- Switched to smooth display
-- Add vayu to OTA
+• Revert "vayu: Enable usb adb debugging by default"
+• vayu: Add BUILD_BROKEN_INCORRECT_PARTITION_IMAGES (to fix qcom issue)
+• vayu: Set VENDOR_SECURITY_PATCH To PLATFORM
+• vayu: Replace isolated_app with isolated_app_all
+• vayu: rootdir: Fix the battery drain due to statsd
+• vayu: rootdir: Restore I/O performance
+• vayu: init: Set default Wi-Fi country code to '00'
+• vayu: wlan: Enable Optimized Power Management
+• vayu: Moved status bar a bit top
+• vayu: Added missing camera blobs
+• vayu: Added libs that added perviously and now to the mk file (Should work probably after that)
+• vayu: Reordered libs in proprietary-files.txt
+• vayu: Merge latest SkylineKernel
+• Another changes and improvments
 
 ========================
